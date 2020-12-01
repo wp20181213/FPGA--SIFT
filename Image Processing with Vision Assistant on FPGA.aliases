@@ -2,7 +2,7 @@
 123 = "192.168.48.119"
 
 [My Computer]
-My Computer = "192.168.48.241"
+My Computer = "172.31.212.246"
 
 [NI cRIO-9033]
 NI cRIO-9033 = "0.0.0.0"
