@@ -53,6 +53,7 @@ You can use NI-IMAQdx to acquire the images from a camera, or read image files s
 		<Item Name="1473R Acquisition Template (Host).vi" Type="VI" URL="../1473R Acquisition Template (Host).vi"/>
 		<Item Name="IMAQdx Acquisition Template (Simulated FPGA VI).vi" Type="VI" URL="../IMAQdx Acquisition Template (Simulated FPGA VI).vi"/>
 		<Item Name="Simulated Acquisition Template (Simulated FPGA VI).vi" Type="VI" URL="../Simulated Acquisition Template (Simulated FPGA VI).vi"/>
+		<Item Name="Windows Main.vi" Type="VI" URL="../Windows Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
@@ -122,6 +123,7 @@ You can use NI-IMAQdx to acquire the images from a camera, or read image files s
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="Imaq GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq GetImageInfo"/>
 				<Item Name="IMAQ FPGA Image Size.ctl" Type="VI" URL="/&lt;vilib&gt;/visionFPGA/Controls/IMAQ FPGA Image Size.ctl"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
