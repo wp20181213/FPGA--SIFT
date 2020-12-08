@@ -2376,8 +2376,8 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/WangPeng/Desktop/for roboRIO/Image Processing with Vision Assistant on FPGA/Image Processing with Vision Assistant on FPGA/FPGA Bitfiles/ImageProcessingw_FPGATarget2_ImageProcessingw_r6UslihHoPw.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/ImageProcessingw_FPGATarget2_ImageProcessingw_r6UslihHoPw.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/WangPeng/Desktop/for roboRIO/Image Processing with Vision Assistant on FPGA/FPGA--SIFT/FPGA Bitfiles/ImageProcessingw_FPGATarget2_ImageProcessingw_ZcF2hsHpmf8.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/ImageProcessingw_FPGATarget2_ImageProcessingw_ZcF2hsHpmf8.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/D/ZHOU/roboRIO/Vision FPGA/Image Processing with Vision Assistant on FPGA/Image Processing with Vision Assistant on FPGA.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
