@@ -36,6 +36,7 @@ You can use NI-IMAQdx to acquire the images from a camera, or read image files s
 	<Property Name="varPersistentID:{4DC436BB-2671-420C-938F-08E0BD0ECBEB}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/deWidth</Property>
 	<Property Name="varPersistentID:{B8181F1D-FBA8-4008-AFF0-9A38BD595B83}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/Active</Property>
 	<Property Name="varPersistentID:{D055C21E-F6E4-4576-B19A-D96B6F0E6663}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/Height</Property>
+	<Property Name="varPersistentID:{FA64B24F-A942-477C-83D8-79A585E2114A}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/sendNewPic</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -60,6 +61,7 @@ You can use NI-IMAQdx to acquire the images from a camera, or read image files s
 		<Item Name="Simulated Acquisition Template (Simulated FPGA VI).vi" Type="VI" URL="../Simulated Acquisition Template (Simulated FPGA VI).vi"/>
 		<Item Name="Windows Main.vi" Type="VI" URL="../Windows Main.vi"/>
 		<Item Name="Windows Main-forDOG.vi" Type="VI" URL="../Windows Main-forDOG.vi"/>
+		<Item Name="Windows Main-forextreme.vi" Type="VI" URL="../Windows Main-forextreme.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
@@ -2457,6 +2459,7 @@ AddOutputFilter chunkFilter
 		<Item Name="hostToFPGA(Array).vi" Type="VI" URL="../hostToFPGA(Array).vi"/>
 		<Item Name="IMAQdx Acquisition Template (Host).vi" Type="VI" URL="../IMAQdx Acquisition Template (Host).vi"/>
 		<Item Name="IMAQdx Acquisition Template (Host)withDOG.vi" Type="VI" URL="../IMAQdx Acquisition Template (Host)withDOG.vi"/>
+		<Item Name="IMAQdx Acquisition Template (Host)withExtreme.vi" Type="VI" URL="../IMAQdx Acquisition Template (Host)withExtreme.vi"/>
 		<Item Name="Shared Variable.lvlib" Type="Library" URL="../Shared Variable.lvlib"/>
 		<Item Name="Simulated Acquisition Template (Host).vi" Type="VI" URL="../Simulated Acquisition Template (Host).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
