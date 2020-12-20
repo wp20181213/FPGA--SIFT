@@ -31,11 +31,17 @@
 You can use NI-IMAQdx to acquire the images from a camera, or read image files saved to disk (simulated acquisition).</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{01B35B69-9C5A-4F9D-BF01-C4A919137230}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/deHeight</Property>
+	<Property Name="varPersistentID:{049AE476-A388-4924-8332-3051260248F5}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/outputDOG2</Property>
+	<Property Name="varPersistentID:{1BF96883-DF89-428C-B627-301B86F65B0A}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/outputExtreme1</Property>
 	<Property Name="varPersistentID:{2CCDF454-FE80-43A4-BC02-B1AD11AB5783}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/Width</Property>
 	<Property Name="varPersistentID:{44571409-F148-4728-A858-293EC452BB13}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/networkStreamBuffer</Property>
 	<Property Name="varPersistentID:{4DC436BB-2671-420C-938F-08E0BD0ECBEB}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/deWidth</Property>
+	<Property Name="varPersistentID:{6B20FC8D-0821-48DD-91F8-06A20E50EE47}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/outputExtreme2</Property>
+	<Property Name="varPersistentID:{A95E1BDA-26E3-4669-80B2-C767065E3D66}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/outputGaussian1</Property>
 	<Property Name="varPersistentID:{B8181F1D-FBA8-4008-AFF0-9A38BD595B83}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/Active</Property>
 	<Property Name="varPersistentID:{D055C21E-F6E4-4576-B19A-D96B6F0E6663}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/Height</Property>
+	<Property Name="varPersistentID:{E273B30E-A34D-42F0-B4A8-6FCA028D19CE}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/outputGaussian2</Property>
+	<Property Name="varPersistentID:{E2CD3D6B-6BD9-43BF-A1CF-E4C95A0F784A}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/outputDOG1</Property>
 	<Property Name="varPersistentID:{FA64B24F-A942-477C-83D8-79A585E2114A}" Type="Ref">/roboRIO-1256-FRC/Shared Variable.lvlib/sendNewPic</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -2405,12 +2411,6 @@ AddOutputFilter chunkFilter
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="NI_VDM_FPGA.lvlib" Type="Library" URL="/&lt;vilib&gt;/visionFPGA/NI_VDM_FPGA.lvlib"/>
 						<Item Name="NI_VDM_FPGA_Basics.lvlib" Type="Library" URL="/&lt;vilib&gt;/visionFPGA/NI_VDM_FPGA_Basics.lvlib"/>
-					</Item>
-					<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-					</Item>
-					<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
