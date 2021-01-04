@@ -290,7 +290,7 @@ DirectoryIndex index.htm
 </CLIPDeclarationSet></Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">roboRIO/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSROBORIOFPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/WangPeng/Desktop/for roboRIO/Image Processing with Vision Assistant on FPGA/FPGA--SIFT/Image Processing with Vision Assistant (FPGA)-useFIFO.vi</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/WangPeng/Desktop/for roboRIO/Image Processing with Vision Assistant on FPGA/FPGA--SIFT/Image Processing with Vision Assistant (FPGA).vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -2859,7 +2859,7 @@ DirectoryIndex index.htm
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 			</Item>
-			<Item Name="1outsuccess.lvbitx" Type="Document" URL="../FPGA Bitfiles/1outsuccess.lvbitx"/>
+			<Item Name="ImageProcessingw_FPGATarget_ImageProcessingw_BdKwgjYHpZs.lvbitx" Type="Document" URL="../FPGA Bitfiles/ImageProcessingw_FPGATarget_ImageProcessingw_BdKwgjYHpZs.lvbitx"/>
 			<Item Name="ImageProcessingw_FPGATarget_ImageProcessingw_Z23Lc7CsNwk.lvbitx" Type="Document" URL="../FPGA Bitfiles/ImageProcessingw_FPGATarget_ImageProcessingw_Z23Lc7CsNwk.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
