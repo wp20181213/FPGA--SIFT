@@ -139,14 +139,14 @@ You can use NI-IMAQdx to acquire the images from a camera, or read image files s
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Get Image Paths from Folder.vi" Type="VI" URL="../SubVIs/Get Image Paths from Folder.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
@@ -2617,6 +2617,12 @@ DirectoryIndex index.htm
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 						<Item Name="NI_VDM_FPGA.lvlib" Type="Library" URL="/&lt;vilib&gt;/visionFPGA/NI_VDM_FPGA.lvlib"/>
 						<Item Name="NI_VDM_FPGA_Basics.lvlib" Type="Library" URL="/&lt;vilib&gt;/visionFPGA/NI_VDM_FPGA_Basics.lvlib"/>
+					</Item>
+					<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+					</Item>
+					<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
