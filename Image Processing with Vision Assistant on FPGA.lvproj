@@ -290,7 +290,6 @@ DirectoryIndex index.htm
 </CLIPDeclarationSet></Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">roboRIO/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSROBORIOFPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/WangPeng/Desktop/for roboRIO/Image Processing with Vision Assistant on FPGA/FPGA--SIFT/Image Processing with Vision Assistant (FPGA)-useFIFO.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -2624,51 +2623,11 @@ DirectoryIndex index.htm
 						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 					</Item>
 				</Item>
-				<Item Name="Build Specifications" Type="Build">
-					<Item Name="Image Processing with Vision Assistant (FPGA)-useFIFO" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">Image Processing with Vision Assistant (FPGA)-useFIFO</Property>
-						<Property Name="Comp.BitfileName" Type="Str">ImageProcessingw_FPGATarget_ImageProcessingw_Z23Lc7CsNwk.lvbitx</Property>
-						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">0</Property>
-						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-						<Property Name="Comp.Version.Major" Type="Int">1</Property>
-						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
-						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
-						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
-						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
-						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
-						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/WangPeng/Desktop/for roboRIO/Image Processing with Vision Assistant on FPGA/FPGA--SIFT/FPGA Bitfiles/ImageProcessingw_FPGATarget_ImageProcessingw_Z23Lc7CsNwk.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/ImageProcessingw_FPGATarget_ImageProcessingw_Z23Lc7CsNwk.lvbitx</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/WangPeng/Desktop/for roboRIO/Image Processing with Vision Assistant on FPGA/FPGA--SIFT/Image Processing with Vision Assistant on FPGA.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
-						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-						<Property Name="SupportDownload" Type="Bool">true</Property>
-						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/roboRIO-1256-FRC/Chassis/FPGA Target/Image Processing with Vision Assistant (FPGA)-useFIFO.vi</Property>
-					</Item>
-				</Item>
+				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
 		</Item>
 		<Item Name="HostToFPGA(RGB).vi" Type="VI" URL="../HostToFPGA(RGB).vi"/>
 		<Item Name="IMAQdx Acquisition Template (Host).vi" Type="VI" URL="../IMAQdx Acquisition Template (Host).vi"/>
-		<Item Name="IMAQdx Acquisition Template (Host)RT-8output.vi" Type="VI" URL="../IMAQdx Acquisition Template (Host)RT-8output.vi"/>
 		<Item Name="Real-Time Main-testComm.vi" Type="VI" URL="../Real-Time Main-testComm.vi"/>
 		<Item Name="Real-Time Main.vi" Type="VI" URL="../Real-Time Main.vi"/>
 		<Item Name="Shared Variable.lvlib" Type="Library" URL="../Shared Variable.lvlib"/>
@@ -2706,6 +2665,7 @@ DirectoryIndex index.htm
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 			</Item>
+			<Item Name="ImageProcessingw_FPGATarget_ImageProcessing_ZJ1-qKgSg9E.lvbitx" Type="Document" URL="../FPGA Bitfiles/ImageProcessingw_FPGATarget_ImageProcessing_ZJ1-qKgSg9E.lvbitx"/>
 			<Item Name="ImageProcessingw_FPGATarget_ImageProcessingw_Z23Lc7CsNwk.lvbitx" Type="Document" URL="../FPGA Bitfiles/ImageProcessingw_FPGATarget_ImageProcessingw_Z23Lc7CsNwk.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
