@@ -2495,6 +2495,14 @@ DirectoryIndex index.htm
 						<Item Name="NI_VDM_FPGA.lvlib" Type="Library" URL="/&lt;vilib&gt;/visionFPGA/NI_VDM_FPGA.lvlib"/>
 						<Item Name="NI_VDM_FPGA_Basics.lvlib" Type="Library" URL="/&lt;vilib&gt;/visionFPGA/NI_VDM_FPGA_Basics.lvlib"/>
 					</Item>
+					<Item Name="calcAddressInMemory(divider4).vi" Type="VI" URL="../calcAddressInMemory(divider4).vi"/>
+					<Item Name="getLow2bitNumber.vi" Type="VI" URL="../getLow2bitNumber.vi"/>
+					<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+					</Item>
+					<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Image Processing" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
