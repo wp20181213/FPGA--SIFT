@@ -2473,6 +2473,7 @@ DirectoryIndex index.htm
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
 					<Item Name="calcAddressInMemory(divider4).vi" Type="VI" URL="../calcAddressInMemory(divider4).vi"/>
+					<Item Name="calcRowAndCols-rgb.vi" Type="VI" URL="../calcRowAndCols-rgb.vi"/>
 					<Item Name="getLow2bitNumber.vi" Type="VI" URL="../getLow2bitNumber.vi"/>
 					<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 						<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
